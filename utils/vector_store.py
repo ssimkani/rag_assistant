@@ -44,6 +44,9 @@ def upsert_chunks(uid, chunks: list[str]):
     vectors = []
     for i, chunk in enumerate(valid_chunks):
         embedding = get_gemini_embedding(chunk)
+
+        # floats from embedding
+        embedding = _to_float_list(embedding)
         vectors.append(
             {
                 "id": f"{uid}_chunk_{i}",
