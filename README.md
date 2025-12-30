@@ -1,1 +1,1 @@
-# SEENAI
+# RAG Assistant
