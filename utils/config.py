@@ -2,6 +2,9 @@
 import streamlit as st
 import google.generativeai as genai
 
+# Dimensions
+EXPECTED_DIM = 768
+
 # Embedding Model
 EMBEDDING_MODEL = "gemini-embedding-001"
 
