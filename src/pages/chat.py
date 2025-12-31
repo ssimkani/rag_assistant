@@ -22,20 +22,11 @@ st.markdown(
 
 # Sidebar
 with st.sidebar:
-    with st.expander("## 🤖 What This Chatbot Does"):
+    with st.expander("## 🤖 About RAG Assistant"):
         st.markdown(
         """
-**Specializes in**:
-
-- Context-aware reasoning
-- and structured output generation
-- Synthesizing and retrieving relevant knowledge using a RAG pipeline (powered by Gemini 2.5 Flash)
-
-**Capabilities**:
-
-- Converts natural language into actionable scripts, templates, or configurations
-- Retrieves domain-specific data and examples using embedded context
-- Supports documentation, analysis, coding, and task automation with precision
+This chatbot, powered by Gemini 2.5 Flash, is a Retrieval-Augmented Generation (RAG) assistant 
+designed to help you retrieve and understand information from your personal notes. This assistant can provide accurate and contextually relevant answers based the content of your notes.
         """
     )
 
